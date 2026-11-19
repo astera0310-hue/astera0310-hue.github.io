@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://astera0310-hue.github.io/sitemap.xml
