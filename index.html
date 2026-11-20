@@ -59,13 +59,20 @@ html{-webkit-text-size-adjust:100%}
 body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict}
 @media (max-width: 600px){
   section > div[style*="padding: 1"]{padding-top:72px !important;padding-bottom:72px !important}
-  section#top > div[style*="padding: 140px"]{padding-top:88px !important;padding-bottom:96px !important}
+  section#top > div[style*="padding: 140px"]{padding-top:40px !important;padding-bottom:80px !important}
+  section#top h1{font-size:34px !important}
+  section#top p{line-height:1.85 !important}
   span[style*="font-size: 200px"],span[style*="font-size: 220px"]{font-size:88px !important}
   img[style*="width: 620px"]{width:320px !important;height:320px !important;right:-80px !important}
   h2[style*="font-size: 34px"]{font-size:28px !important}
   p[style*="font-size: 16px"]{font-size:15px !important;line-height:1.95}
   article[style*="padding: 40px 32px"],article[style*="padding: 32px 30px"]{padding:28px 22px !important}
   div[style*="padding: 8px 32px"]{padding:4px 18px !important}
+  .as-hd{flex-wrap:nowrap !important;padding:10px 16px !important;gap:10px !important}
+  .as-hd img{width:36px !important;height:36px !important}
+  .as-hd span[style*="font-size: 26px"]{font-size:20px !important}
+  .as-hd span[style*="font-size: 11px"]{font-size:9px !important}
+  .as-hdbtn{font-size:14px !important;min-height:38px !important;padding:0 16px !important;white-space:nowrap}
 }
 
 html{scroll-behavior:smooth}
@@ -85,7 +92,7 @@ html{scroll-behavior:smooth}
 <div style="width: 100%; background: #FBFAF7; color: #1E2433; font-family: 'Noto Sans JP', sans-serif; line-height: 1.9">
 
 <header style="background: #FFFFFF; border-bottom: 1px solid #E6E1D6">
-<div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<div class="as-hd" style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
 <a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #152257">
 <img src="mark.png" alt="株式会社ASTERA ロゴ" style="width: 48px; height: 48px; object-fit: contain">
 <div style="display: flex; flex-direction: column; line-height: 1.2">
@@ -99,7 +106,7 @@ html{scroll-behavior:smooth}
 <a class="as-nav" href="#message" style="color: #152257; text-decoration: none; padding: 10px 0">代表挨拶</a>
 <a class="as-nav" href="#media" style="color: #152257; text-decoration: none; padding: 10px 0">メディア掲載</a>
 <a class="as-nav" href="#company" style="color: #152257; text-decoration: none; padding: 10px 0">会社概要</a>
-<a class="as-btn" href="#contact" data-open-form style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 24px; background: #E3505A; color: #FFFFFF; border-radius: 999px; text-decoration: none; font-size: 19px; font-weight: 700">お問い合わせ</a>
+<a class="as-btn as-hdbtn" href="#contact" data-open-form style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 24px; background: #E3505A; color: #FFFFFF; border-radius: 999px; text-decoration: none; font-size: 19px; font-weight: 700">お問い合わせ</a>
 </nav>
 </div>
 </header>
@@ -157,12 +164,12 @@ html{scroll-behavior:smooth}
 </div>
 <div class="rv rv-l" style="display: flex; flex-direction: column; gap: 20px; max-width: 860px">
 <span style="font-size: 14px; font-weight: 700; color: #7A5A1C; letter-spacing: 0.15em">MISSION ── 使命</span>
-<p style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 700; color: #152257; line-height: 1.6">明日を<wbr>照らすキッカケに<wbr>なる<wbr>こと</p>
+<p style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 700; color: #152257; line-height: 1.6">明日を<wbr>照らす<br>キッカケに<wbr>なる<wbr>こと</p>
 <p style="margin: 0; font-size: 16px">社名の<wbr>「ASTERA」には、<wbr>「明日を<wbr>照らすキッカケでありたい」と<wbr>いう<wbr>想いを<wbr>込めています。<wbr>ASTERAには<wbr>「星」と<wbr>いう<wbr>意味も<wbr>あります。<wbr>誰かとの<wbr>出会いや、<wbr>自分を<wbr>認められるようになる<wbr>瞬間。<wbr>人生が<wbr>前に<wbr>進むキッカケを<wbr>届け、<wbr>星のように<wbr>輝く<wbr>人を<wbr>一人でも<wbr>多く<wbr>増やしていく<wbr>ことが、<wbr>私たちの<wbr>使命です。</p>
 </div>
 <div class="rv rv-l" style="display: flex; flex-direction: column; gap: 20px; max-width: 860px">
 <span style="font-size: 14px; font-weight: 700; color: #7A5A1C; letter-spacing: 0.15em">VISION ── 目指す姿</span>
-<p style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 700; color: #152257; line-height: 1.6">自分を<wbr>好きに<wbr>なれる<wbr>人を<wbr>増やし、<br>日本の<wbr>未来を<wbr>明るくする</p>
+<p style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 700; color: #152257; line-height: 1.6">自分を<wbr>好きに<br>なれる<wbr>人を<wbr>増やし<br>日本の<wbr>未来を<wbr>明るくする</p>
 <p style="margin: 0; font-size: 16px">恋愛や<wbr>結婚の<wbr>悩みの<wbr>奥には、<wbr>「自分に<wbr>自信が<wbr>持てない」<wbr>「気持ちを<wbr>うまく<wbr>扱えない」と<wbr>いった<wbr>心の<wbr>課題が<wbr>隠れている<wbr>ことが<wbr>少なく<wbr>ありません。<wbr>私たちは<wbr>出会いの<wbr>機会だけでなく、<wbr>その<wbr>人自身が<wbr>変わっていく<wbr>過程にも<wbr>寄り<wbr>添います。<wbr>自分を<wbr>好きに<wbr>なれる<wbr>人が<wbr>増え、<wbr>その<wbr>人たちが<wbr>新しい<wbr>家族を<wbr>つくっていく。<wbr>その<wbr>積み重ねで、<wbr>日本の<wbr>未来を<wbr>明るくしていきます。</p>
 </div>
 </div>
@@ -188,7 +195,7 @@ html{scroll-behavior:smooth}
 <div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 112px 24px; display: flex; flex-direction: column; gap: 48px">
 <div class="rv" style="display: flex; flex-direction: column; gap: 10px">
 <span style="font-family: 'Cormorant Garamond', serif; font-size: 16px; letter-spacing: 0.3em; color: #D9B866">VALUE</span>
-<h2 style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: 34px; color: #FFFFFF; letter-spacing: 0.06em">私たちが<wbr>大切に<wbr>する<wbr>3つの<wbr>姿勢</h2>
+<h2 style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: 34px; color: #FFFFFF; letter-spacing: 0.06em">私たちが<wbr>大切に<wbr>する<br>3つの<wbr>姿勢</h2>
 <div aria-hidden="true" style="width: 48px; height: 2px; background: #B8892E; margin-top: 6px"></div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px">
