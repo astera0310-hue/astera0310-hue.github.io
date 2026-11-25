@@ -66,6 +66,14 @@ body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict}
 }
 
 html{scroll-behavior:smooth}
+.vphoto{margin:-32px -30px 4px;border-radius:16px 16px 0 0;overflow:hidden;background:#FDEFEF}
+.vphoto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.vmsg{margin:6px 0 0;padding:16px;background:#FBF7F7;border-radius:12px;display:flex;flex-direction:column;gap:10px}
+.vmsg figcaption{font-size:13px;font-weight:700;color:#C2393F}
+.vmsg a{display:block;line-height:0}
+.vmsg img{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;border-radius:8px;border:1px solid #F1DEDE;background:#fff}
+.vmsg small{font-size:12px;color:#5C5649;text-align:center}
+@media(max-width:600px){.vphoto{margin:-28px -22px 4px}}
 </style>
 </head>
 <body>
@@ -117,7 +125,8 @@ html{scroll-behavior:smooth}
 </div>
 <p class="rv" style="margin: 0; font-size: 15px; max-width: 760px">状況は<wbr>一人ひとり違います。<wbr>実際に<wbr>サポートした<wbr>方の<wbr>一部を<wbr>ご紹介します。<wbr>（ご本人の<wbr>同意を<wbr>得て、<wbr>個人が<wbr>特定されないよう内容を<wbr>一部<wbr>編集しています）</p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
-<article class="as-card rv dl1" style="background: #FFFFFF; border: 1px solid #F1DEDE; border-radius: 16px; padding: 32px 30px; display: flex; flex-direction: column; gap: 14px">
+<article class="as-card rv dl1" style="background: #FFFFFF; border: 1px solid #F1DEDE; border-radius: 16px; padding: 32px 30px; overflow: hidden; display: flex; flex-direction: column; gap: 14px">
+<figure class="vphoto"><img src="voice-wedding.jpg" alt="29歳Sさんの結婚披露宴の写真" loading="lazy" style="object-position:center"></figure>
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap">
 <div style="display: flex; align-items: center; gap: 12px">
 <div aria-hidden="true" style="width: 48px; height: 48px; flex: none; border-radius: 50%; background: #FDEFEF; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F25C62" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="14" r="6"/><path d="M9 5l3-3 3 3-3 3z"/></svg></div>
@@ -129,7 +138,8 @@ html{scroll-behavior:smooth}
 <h3 style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: 20px; color: #152257; line-height: 1.6">「復縁、そして<wbr>結婚へ」</h3>
 <p style="margin: 0; font-size: 15px">LINEを<wbr>送っても<wbr>返事は<wbr>冷たく、<wbr>これ以上<wbr>送ると<wbr>嫌われるのではと<wbr>不安で<wbr>動けない<wbr>状態でした。<wbr>2ヶ月距離を<wbr>置いた<wbr>あと、<wbr>距離感と<wbr>タイミングを<wbr>意識した<wbr>LINEの<wbr>やり取りに<wbr>一緒に<wbr>取り組み、<wbr>少し<wbr>ずつ<wbr>会話が<wbr>続くように。<wbr>彼から<wbr>電話に<wbr>誘われるようになり、<wbr>163日目に<wbr>復縁。<wbr>その後<wbr>ご結婚され、<wbr>披露宴にも<wbr>お招きいただきました。</p>
 </article>
-<article class="as-card rv dl2" style="background: #FFFFFF; border: 1px solid #F1DEDE; border-radius: 16px; padding: 32px 30px; display: flex; flex-direction: column; gap: 14px">
+<article class="as-card rv dl2" style="background: #FFFFFF; border: 1px solid #F1DEDE; border-radius: 16px; padding: 32px 30px; overflow: hidden; display: flex; flex-direction: column; gap: 14px">
+<figure class="vphoto"><img src="voice-73.jpg" alt="73日で復縁した31歳Mさんと彼の写真" loading="lazy" style="object-position:35% center"></figure>
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap">
 <div style="display: flex; align-items: center; gap: 12px">
 <div aria-hidden="true" style="width: 48px; height: 48px; flex: none; border-radius: 50%; background: #FDEFEF; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F25C62" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21.2l8.8-8.8a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
@@ -152,8 +162,10 @@ html{scroll-behavior:smooth}
 <span style="align-self: flex-start; font-size: 12px; color: #C2393F; background: #FDEFEF; border: 1px solid #FBD3D3; border-radius: 999px; padding: 4px 12px">遠距離恋愛／自分の<wbr>ネガティブな<wbr>発言が<wbr>別れの<wbr>原因</span>
 <h3 style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: 20px; color: #152257; line-height: 1.6">「内面改善から、<wbr>新しい<wbr>自分で<wbr>復縁」</h3>
 <p style="margin: 0; font-size: 15px">別れの<wbr>原因が<wbr>自分の<wbr>ネガティブな<wbr>発言に<wbr>あった<wbr>Tさん。<wbr>5ヶ月かけて<wbr>内面改善に<wbr>一緒に<wbr>取り組みながら、<wbr>距離感と<wbr>タイミングを<wbr>意識して<wbr>彼と<wbr>関わりました。<wbr>少し<wbr>ずつ<wbr>自信と<wbr>前向きさを<wbr>取り戻し、<wbr>125日目に<wbr>復縁されました。</p>
+<figure class="vmsg"><figcaption>ご本人から届いたメッセージ</figcaption><a href="voice-msg-125.jpg" target="_blank" rel="noopener"><img src="voice-msg-125.jpg" alt="125日で復縁した29歳Tさんから届いたメッセージ" loading="lazy"></a><small>画像をタップすると拡大できます</small></figure>
 </article>
-<article class="as-card rv dl1" style="background: #FFFFFF; border: 1px solid #F1DEDE; border-radius: 16px; padding: 32px 30px; display: flex; flex-direction: column; gap: 14px">
+<article class="as-card rv dl1" style="background: #FFFFFF; border: 1px solid #F1DEDE; border-radius: 16px; padding: 32px 30px; overflow: hidden; display: flex; flex-direction: column; gap: 14px">
+<figure class="vphoto"><img src="voice-39.jpg" alt="39日で復縁した32歳Kさんと彼の写真" loading="lazy" style="object-position:center 70%"></figure>
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap">
 <div style="display: flex; align-items: center; gap: 12px">
 <div aria-hidden="true" style="width: 48px; height: 48px; flex: none; border-radius: 50%; background: #FDEFEF; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F25C62" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg></div>
@@ -176,6 +188,7 @@ html{scroll-behavior:smooth}
 <span style="align-self: flex-start; font-size: 12px; color: #C2393F; background: #FDEFEF; border: 1px solid #FBD3D3; border-radius: 999px; padding: 4px 12px">職場が<wbr>同じで<wbr>毎日<wbr>顔を<wbr>合わせる</span>
 <h3 style="margin: 0; font-family: 'Noto Serif JP', serif; font-size: 20px; color: #152257; line-height: 1.6">「気まずい<wbr>関係から<wbr>復縁」</h3>
 <p style="margin: 0; font-size: 15px">職場が<wbr>同じで<wbr>毎日<wbr>会う<wbr>ため、<wbr>どう<wbr>振る<wbr>舞えば<wbr>いいか<wbr>分から<wbr>ず<wbr>気まずい<wbr>関係が<wbr>続いていました。<wbr>距離感と<wbr>男性心理を<wbr>意識した<wbr>関わり方に<wbr>一緒に<wbr>取り組み、<wbr>85日目に<wbr>復縁されました。</p>
+<figure class="vmsg"><figcaption>ご本人から届いたメッセージ</figcaption><a href="voice-msg-85.jpg" target="_blank" rel="noopener"><img src="voice-msg-85.jpg" alt="85日で復縁した39歳Sさんから届いたメッセージ" loading="lazy"></a><small>画像をタップすると拡大できます</small></figure>
 </article>
 </div>
 </div>
